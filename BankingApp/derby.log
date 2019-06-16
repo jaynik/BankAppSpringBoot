@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 16 17:53:15 CDT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-016b-627e-a22a-00000d5f65b0 
+on database directory memory:C:\Users\jayas\Documents\workspace-sts-3.9.8.RELEASE\BankingApp\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/jayas/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=C:\Users\jayas\Documents\workspace-sts-3.9.8.RELEASE\BankingApp
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
