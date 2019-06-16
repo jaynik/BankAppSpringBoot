@@ -6,8 +6,11 @@ please enter username: admin and password: test
 
 CRUD operations on customers
 1. Create a customer: 
+
   URI: http://localhost:3033/customers
+  
   METHOD: POST
+  
   Body: provide only customer details: name, email, phone --> automatically creates account details with account number, account type 
         and balance
 2. Fetch all customer details: 
