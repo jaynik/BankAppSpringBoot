@@ -1,11 +1,11 @@
 # BankAppSpringBoot
-Restful API to simulate simple banking operations
+## Restful API to simulate simple banking operations
 
-This application is secured using Spring Security
- please enter username: admin and password: test
+ <p>This application is secured using Spring Security.</p>
+ <p>Please enter username: admin and password: test</p>
 
-CRUD operations on customers
-1. Create a customer: 
+#### <p>CRUD operations on customers</p>
+<p>1. Create a customer:</p>
   URI: http://localhost:3033/customers
   METHOD: POST
   Body: provide only customer details: name, email, phone --> automatically creates account details with account number, account type 
