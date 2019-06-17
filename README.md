@@ -2,7 +2,7 @@
 Restful API to simulate simple banking operations
 
 This application is secured using Spring Security
-please enter username: admin and password: test
+ please enter username: admin and password: test
 
 CRUD operations on customers
 1. Create a customer: 
