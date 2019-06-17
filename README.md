@@ -1,51 +1,51 @@
 # BankAppSpringBoot
 ## Restful API to simulate simple banking operations
 
- <p>This application is secured using Spring Security.</p>
- <p>Please enter username: admin and password: test</p>
+ <p>This application is secured using Spring Security.</br>
+ Please enter username: admin and password: test</p>
 
-#### <p>CRUD operations on customers</p>
-<p>1. Create a customer:</p>
-  URI: http://localhost:3033/customers
-  METHOD: POST
+#### CRUD operations on customers</br>
+<p>1. Create a customer:</br>
+  URI: http://localhost:3033/customers</br>
+  METHOD: POST</br>
   Body: provide only customer details: name, email, phone --> automatically creates account details with account number, account type 
-        and balance
-2. Fetch all customer details: 
-  URI: http://localhost:3033/customers
-  METHOD: GET
-3. Fetch customer details by Id: 
-  URI: http://localhost:3033/customers/{id}
-  METHOD: GET
-4. Update customer details: 
-  URI: http://localhost:3033/customers/{id}
-  METHOD: PUT
-5. Delete customer: 
-  URI: http://localhost:3033/customers{id}
-  METHOD: DELETE
+        and balance</br>
+2. Fetch all customer details:</br> 
+  URI: http://localhost:3033/customers</br>
+  METHOD: GET</br>
+3. Fetch customer details by Id:</br> 
+  URI: http://localhost:3033/customers/{id}</br>
+  METHOD: GET</br>
+4. Update customer details:</br> 
+  URI: http://localhost:3033/customers/{id}</br>
+  METHOD: PUT</br>
+5. Delete customer:</br> 
+  URI: http://localhost:3033/customers{id}</br>
+  METHOD: DELETE</p>
   
-CRUD operations on Accounts: Accounts cannot be created or updated or deleted. They can only be viewed. 
-1. Get all account details
-  URI: http://localhost:3033/accounts
-  METHOD: GET
-2. Get account details by id
-  URI: http://localhost:3033/accounts/{id}
-  METHOD: GET
+#### CRUD operations on Accounts: Accounts cannot be created or updated or deleted. They can only be viewed. 
+<p>1. Get all account details</br>
+  URI: http://localhost:3033/accounts</br>
+  METHOD: GET</br>
+2. Get account details by id</br>
+  URI: http://localhost:3033/accounts/{id}</br>
+  METHOD: GET</p>
   
-Withdraw amount from account
-  URI: http://localhost:3033/{accno}/withdraw/{amt}
-  METHOD: PUT
+#### Withdraw amount from account
+  <p?URI: http://localhost:3033/{accno}/withdraw/{amt}</br>
+  METHOD: PUT</p>
 
-Deposit amount to an account
-  URI: http://localhost:3033/{accno}/deposit/{amt}
-  METHOD: PUT
+#### Deposit amount to an account
+  <p>URI: http://localhost:3033/{accno}/deposit/{amt}</br>
+  METHOD: PUT</p>
 
-Transfer amount from one account to another account
-  URI: http://localhost:3033/transfer/{amt}
-  METHOD: PUT
-  Body: {"from": "1"
-        "to": "2"}
+#### Transfer amount from one account to another account
+  <p>URI: http://localhost:3033/transfer/{amt}</br>
+  METHOD: PUT</br>
+  Body: {"from": "1"</br>
+        "to": "2"}</p>
 
-Swagger Url: http://localhost:3033/swagger-ui.html#/
+### Swagger Url: http://localhost:3033/swagger-ui.html#/
              http://localhost:3033/v2/api-docs
 
 
